@@ -44,7 +44,6 @@ stereo-vision-disparity-estimation/
 ├── stereo_disparity_pipeline.m
 ├── README.md
 ├── MATLAB_REQUIREMENTS.md
-├── TP_StereoVision_Report.pdf
 ├── im2.ppm
 ├── im6.ppm
 └── disp2.pgm
@@ -133,29 +132,3 @@ The project demonstrates how disparity quality evolves as the stereo pipeline be
 - hole filling improves visual coherence,
 - left-right consistency removes invalid matches,
 - energy minimization produces smoother and more structured disparity maps.
-
-## Report
-
-A detailed written report is included in:
-
-- `TP_StereoVision_Report.pdf`
-
-It documents the step-by-step methodology, visual results, and analysis of each task in the stereo reconstruction pipeline.
-
-## Notes
-
-- This project is best presented as a **classical stereo vision project in MATLAB**, not merely as coursework.
-- If you publish it on GitHub, rename the main script to something clearer than a TP-style name.
-- If the current code is split into multiple repeated sections, you may want to refactor it into reusable functions for a cleaner public version.
-
-## Possible Improvements
-
-- refactor the script into modular MATLAB functions,
-- add semi-global matching or graph-cut style optimization,
-- benchmark runtime across similarity measures,
-- add quantitative evaluation tables,
-- export disparity results automatically.
-
-## License
-
-This repository is shared as part of a personal portfolio in computer vision and 3D perception.
